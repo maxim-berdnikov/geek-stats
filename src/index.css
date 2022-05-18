@@ -40,7 +40,6 @@ code {
   cursor: pointer;
 }
 
-
 .canvas-container {
   margin: 0 auto;
   max-width: 1200px;
@@ -51,4 +50,5 @@ code {
   margin-top: 20px;
   color: rgb(0, 174, 255);
   text-decoration: underline;
+  cursor: pointer;
 }
