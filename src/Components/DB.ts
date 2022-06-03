@@ -354,8 +354,8 @@ export const DB = [
     month: "May, 22",
     content: {
       movies: ["Зачинщики", "Маленькие чудовища", "Jungle Cruise", "Free Guy"],
-      tv_shows: [],
-      comics: [],
+      tv_shows: ["Game of Thrones. S1"],
+      comics: ["Дэдпул против Карателя"],
       games: [{ title: "Star Wars Jedi: Fallen Order", perfect: false }],
       books: [],
     },
