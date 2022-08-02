@@ -1,4 +1,6 @@
-export const DB = [
+import { MonthProps } from "../Types";
+
+export const DB: MonthProps[] = [
   {
     month: "Jan, 21",
     content: {
@@ -362,26 +364,30 @@ export const DB = [
   },
   {
     month: "Jun, 22",
-    movies: [
-      "Mortal Kombat (2021)",
-      "Fantastic Beasts: The Secrets of Dumbledore",
-      "The Village",
-      "Cruella",
-      "Dune. Part 1",
-      "Doctor Strange in the Multiverse of Madness",
-    ],
-    tv_shows: [],
-    comics: [],
-    games: [{ title: "", perfect: false }],
-    books: [],
+    content: {
+      movies: [
+        "Mortal Kombat (2021)",
+        "Fantastic Beasts: The Secrets of Dumbledore",
+        "The Village",
+        "Cruella",
+        "Dune. Part 1",
+        "Doctor Strange in the Multiverse of Madness",
+      ],
+      tv_shows: [],
+      comics: [],
+      games: [{ title: "", perfect: false }],
+      books: [],
+    },
   },
   {
     month: "Jul, 22",
-    movies: ["Sing", "Sing 2", "Jurassic World: Dominion"],
-    tv_shows: ["Нулевой пациент. S1", "Loki. S1"],
-    comics: [],
-    games: [{ title: "Guardians of the Galaxy", perfect: false }],
-    books: [],
+    content: {
+      movies: ["Sing", "Sing 2", "Jurassic World: Dominion"],
+      tv_shows: ["Нулевой пациент. S1", "Loki. S1"],
+      comics: [],
+      games: [{ title: "Guardians of the Galaxy", perfect: false }],
+      books: [],
+    },
   },
   // {
   //   month: "Feb, 22",

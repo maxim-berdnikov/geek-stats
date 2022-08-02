@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import { MonthProps } from "../Types";
+import { Calendar } from "./Calendar";
 import { DB } from "./DB";
+import { MonthResults } from "./MonthResults";
 
 export function MonthList() {
   const [showList, setShowList] = useState(false);
@@ -15,78 +18,13 @@ export function MonthList() {
     setShowList(false);
   };
 
-  const AllMonth = () => {
-    return (
-      <div className="list">
-        {DB.map((month) => (
-          <div
-            className="list_item"
-            key={month.month}
-            id={month.month}
-            onClick={handleMonthClick}
-          >
-            {month.month}
-          </div>
-        ))}
-      </div>
-    );
-  };
-
-  const MonthResults = () => {
-    const curretnMonth = DB.find((month) => month.month === selectedMonth);
-    return (
-      <div>
-        <div className="back-button" onClick={handleBack}>Назад</div>
-        {curretnMonth !== undefined ? (
-          <>
-            <h2>{curretnMonth.month}</h2>
-            {curretnMonth.content.movies.length > 0 && (
-              <div>
-                <h3>Фильмы</h3>
-                {curretnMonth.content.movies.map((movie) => (
-                  <p key={movie}>{movie}</p>
-                ))}
-              </div>
-            )}
-            {curretnMonth.content.tv_shows.length > 0 && (
-              <div>
-                <h3>Сериалы</h3>
-                {curretnMonth.content.tv_shows.map((show) => (
-                  <p key={show}>{show}</p>
-                ))}
-              </div>
-            )}
-            {curretnMonth.content.comics.length > 0 && (
-              <div>
-                <h3>Комиксы</h3>
-                {curretnMonth.content.comics.map((book) => (
-                  <p key={book}>{book}</p>
-                ))}
-              </div>
-            )}
-            {curretnMonth.content.books.length > 0 && (
-              <div>
-                <h3>Книги</h3>
-                {curretnMonth.content.books.map((book) => (
-                  <p key={book}>{book}</p>
-                ))}
-              </div>
-            )}
-            {curretnMonth.content.games.length > 0 && (
-              <div>
-                <h3>Игры</h3>
-                {curretnMonth.content.games.map((game) => (
-                  <p key={game.title}>{game.title}</p>
-                ))}
-              </div>
-            )}
-          </>
-        ) : (
-          void 0
-        )}
-      </div>
-    );
-  };
-
-  return <div>{showList ? <MonthResults /> : <AllMonth />}</div>;
+  return (
+    <div>
+      {showList ? (
+        <MonthResults selectedMonth={selectedMonth} handleBack={handleBack} />
+      ) : (
+        <Calendar handleMonthClick={handleMonthClick} />
+      )}
+    </div>
+  );
 }
