@@ -389,6 +389,36 @@ export const DB: MonthProps[] = [
       books: [],
     },
   },
+  {
+    month: "Aug, 22",
+    content: {
+      movies: ["Prey", "Black Widow", "Boss Level"],
+      tv_shows: [
+        "Locke & key. S1-2",
+        "Love, death and robots. S3",
+        "The Falcon and The Winter Soldier. S1",
+      ],
+      comics: [],
+      games: [{ title: "InFamos: Secon Son (PS5)", perfect: false }],
+      books: [],
+    },
+  },
+  {
+    month: "Sep, 22",
+    content: {
+      movies: ["The Batman 2022", "Arrival", "Ready or Not"],
+      tv_shows: [
+        "Locke & key. S3",
+        "Vinland Saga. S1",
+        "Invincible. S1",
+        "Goblin Slayer. S1",
+        "Hawkeye. S1",
+      ],
+      comics: ["Kingsman. Красный алмаз"],
+      games: [{ title: "InFamos: Secon Son (PS5)", perfect: false }],
+      books: [],
+    },
+  },
   // {
   //   month: "Feb, 22",
   //   movies: [],
