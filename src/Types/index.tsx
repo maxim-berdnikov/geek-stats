@@ -4,7 +4,7 @@ export type MonthProps = {
     movies: string[];
     tv_shows: string[];
     comics: string[];
-    games: { title: string; perfect: boolean }[];
+    games: { title: string; perfect?: boolean }[];
     books: string[];
   };
 };

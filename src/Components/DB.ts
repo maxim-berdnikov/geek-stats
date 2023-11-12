@@ -455,14 +455,155 @@ export const DB: MonthProps[] = [
       books: [],
     },
   },
-  // {
-  //   month: "Feb, 22",
-  //   movies: [],
-  //   tv_shows: [],
-  //   comics: [],
-  //   games: [
-  // { title: "", perfect: false },
-  // ],
-  //   books: []
-  // }
+  {
+    month: "Jan, 23",
+    content: {
+      movies: [
+        "Harry Potter and the Philosopher's Stone",
+        "Harry Potter and the Chamber of Secrets",
+        "Harry Potter and the Prisoner of Azkaban",
+        "Harry Potter and the Goblet of Fire",
+        "Аватар: Путь воды",
+      ],
+      tv_shows: ["Wednesday S1", "Чикатило S2"],
+      comics: ["Гру. Том 1"],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "Feb, 23",
+    content: {
+      movies: [
+        "Шоугерлз",
+        "Пара из будущего",
+        "Вышка",
+        "Harry Potter and the Order of the Phoenix",
+      ],
+      tv_shows: ["Жуки. 3 сезон", "Вампиры средней полосы. 2 сезон"],
+      comics: [],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "Mar, 23",
+    content: {
+      movies: [
+        "Трям! Здравствуйте",
+        "Зимняя сказка",
+        "Осенние корабли",
+        "Удивительная бочка",
+        "По дороге с облаками",
+        "Подарок для Слона",
+        "Клад",
+        "Мешок яблок",
+        "Harry Potter and the Half-Blood Prince",
+        "Harry Potter and the Deathly Hallows: Part I",
+        "Harry Potter and the Deathly Hallows: Part II",
+      ],
+      tv_shows: ["Территория. 2 сезон", "Приключения Лоло и Пепе"],
+      comics: [
+        "Пол Поуп. Боевой парень",
+        "Вселенная Marvel против Карателя",
+        "Каратель против Меченого",
+        "Невероятный Халк и Существо: Большие перемены",
+        "Наши столкновения со злом",
+        "Фальконспир",
+      ],
+      games: [{ title: "Limbo" }, { title: "A Way Out" }],
+      books: [],
+    },
+  },
+  {
+    month: "Apr, 23",
+    content: {
+      movies: [],
+      tv_shows: ["House of the Dragon (1 сезон)"],
+      comics: ["Чёрный Молот. Эра Рока II"],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "May, 23",
+    content: {
+      movies: [],
+      tv_shows: ["Полярный (2 сезон)", "Ольга (4 сезон)"],
+      comics: [],
+      games: [{ title: "We Were Here Together" }],
+      books: [],
+    },
+  },
+  {
+    month: "Jun, 23",
+    content: {
+      movies: [
+        "Dungeon and Dragons: Honor among thieves",
+        "Puss in Boots: The Last Wish",
+      ],
+      tv_shows: ["Black Mirror S6"],
+      comics: [],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "Jul, 23",
+    content: {
+      movies: ["Бахубали. Начало", "Бахубали. Завершение"],
+      tv_shows: [
+        "Окнутые люди",
+        "The Book of Boba Fett 1 сезон",
+        "The Mandalorian 3 сезон",
+      ],
+      comics: ["Звери с бренного холма", "47 ронинов", "Картон"],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "Aug, 23",
+    content: {
+      movies: [],
+      tv_shows: ["Последнее королевство 5 сезон"],
+      comics: [],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "Sep, 23",
+    content: {
+      movies: ["7 королей должны умереть"],
+      tv_shows: ["Пишеблок 2 сезон"],
+      comics: [],
+      games: [{ title: "God of War Ragnarök", perfect: true }],
+      books: [],
+    },
+  },
+  {
+    month: "Oct, 23",
+    content: {
+      movies: ["Madagascar"],
+      tv_shows: ["Разрешите обратиться (1 сезон)"],
+      comics: [],
+      games: [],
+      books: [],
+    },
+  },
+  {
+    month: "Nov, 23",
+    content: {
+      movies: [
+        "John Wick 4",
+        "Мегалодон",
+        "Три мушкетера (2023,  Великобритания)",
+      ],
+      tv_shows: ["Два холма (1 сезон)", "Кибердеревня (1 сезон)"],
+      comics: ["God of War"],
+      games: [],
+      books: ["История с кладбищем"],
+    },
+  },
 ];
