@@ -83,6 +83,12 @@ const showedData = [
     borderColor: colors.movies.line,
     backgroundColor: colors.movies.bg,
   },
+  {
+    label: "Books",
+    data: DB.map((month) => month.content.books.length),
+    borderColor: colors.books.line,
+    backgroundColor: colors.books.bg,
+  },
 ];
 
 const labels = DB.map((month) => month.month);
@@ -93,7 +99,6 @@ export const data = {
 };
 
 export function ChartElement() {
- 
   return (
     <div className="canvas-container">
       {/* @ts-ignore */}
