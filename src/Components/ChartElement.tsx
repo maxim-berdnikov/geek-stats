@@ -67,7 +67,7 @@ const showedData = Object.keys(colors).map((key) =>
   isCategoriesKey(key)
     ? {
         label: getTitle(key),
-        data: DB.map((month) => month.content[key]?.length),
+        data: DB.map((month) => month.content[key]?.length || 0),
         borderColor: colors[key].line,
         backgroundColor: colors[key].bg,
       }
