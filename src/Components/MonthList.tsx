@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { MonthProps } from "../Types";
 import { Calendar } from "./Calendar";
-import { DB } from "./DB";
 import { MonthResults } from "./MonthResults";
 
 export function MonthList() {
