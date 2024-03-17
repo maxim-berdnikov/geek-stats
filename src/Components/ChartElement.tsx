@@ -74,39 +74,6 @@ const showedData = Object.keys(colors).map((key) =>
     : []
 );
 
-// const showedData = [
-//   {
-//     label: "Комисы",
-//     data: DB.map((month) => month.content.comics.length),
-//     borderColor: colors.comics.line,
-//     backgroundColor: colors.comics.bg,
-//   },
-//   {
-//     label: "TV Shows",
-//     data: DB.map((month) => month.content.tv_shows.length),
-//     borderColor: colors.tv_shows.line,
-//     backgroundColor: colors.tv_shows.bg,
-//   },
-//   {
-//     label: "Games",
-//     data: DB.map((month) => month.content.games.length),
-//     borderColor: colors.games.line,
-//     backgroundColor: colors.games.bg,
-//   },
-//   {
-//     label: "Movies",
-//     data: DB.map((month) => month.content.movies.length),
-//     borderColor: colors.movies.line,
-//     backgroundColor: colors.movies.bg,
-//   },
-//   {
-//     label: "Books",
-//     data: DB.map((month) => month.content.books.length),
-//     borderColor: colors.books.line,
-//     backgroundColor: colors.books.bg,
-//   },
-// ];
-
 const labels = DB.map((month) => month.month);
 
 export const data = {
