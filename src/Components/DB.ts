@@ -691,11 +691,46 @@ export const DB: MonthProps[] = [
         { title: "100 Capitalism Cats", perfect: true },
       ],
       books: ["Ведьмак. Башня ласточки"],
-
       audiobooks: [
         "Зойкина квартира (Михаил Булгаков)",
         "Когда боги смеются (Джек Лондон)",
+        "Повесть о Лесах (Константин Паустовский)",
       ],
+    },
+  },
+  {
+    month: "Apr, 24",
+    content: {
+      movies: [],
+      tv_shows: ["Монарх. Наследник монстров (1 сезон)"],
+      comics: [
+        "One-punch Man. Книга 10",
+        "One-punch Man. Книга 11",
+        "One-punch Man. Книга 12",
+        "One-punch Man. Книга 13",
+        "One-punch Man. Книга 14",
+      ],
+      games: [],
+      books: [
+        "Ведьмак. Владычица озера",
+        "Ведьмак. Дорога без возврата",
+        "Ведьмак. Что-то кончается, что-то начинается",
+        "Музыканты",
+        "Золотой полдень",
+        "Maladie",
+      ],
+      audiobooks: [],
+    },
+  },
+  {
+    month: "May, 24",
+    content: {
+      movies: [],
+      tv_shows: [],
+      comics: ["Клинок бессмертного. Книга 1"],
+      games: [{ title: "100 Christmas Cats", perfect: true }],
+      books: [],
+      audiobooks: [],
     },
   },
 ];
