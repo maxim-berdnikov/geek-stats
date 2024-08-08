@@ -736,12 +736,61 @@ export const DB: MonthProps[] = [
   {
     month: "Jun, 24",
     content: {
-      movies: ["Godzilla x Kong: The New Empire"],
+      movies: [
+        "Godzilla x Kong: The New Empire",
+        "Three Thousand Years Of Longing",
+        "Rise Of The Planets Of Apes",
+        "The King's Man",
+        "Максим Перепелица",
+      ],
       tv_shows: [],
-      comics: [],
-      games: [],
+      comics: ["Нуар. Палп"],
+      games: [
+        { title: "100 Aliens Cats", perfect: true },
+        { title: "100 Space Cats", perfect: true },
+      ],
       books: ["Ведьма за границей (Терри Пратчетт)"],
       audiobooks: [],
+    },
+  },
+  {
+    month: "Jul, 24",
+    content: {
+      movies: [
+        "Dawn Of The Planet Of The Apes",
+        "War for the Planet of the Apes",
+        "Бременские музыканты (2024)",
+        "Летучий корабль (2024)",
+        "Бременские музыканты",
+        "По следам Бременских музыкантов",
+        "Летучий корабль",
+      ],
+      tv_shows: ["Великий Тихий океан (5 серий)"],
+      comics: [],
+      games: [{ title: "Ghost Of Tsushima", perfect: true }],
+      books: [
+        "Птицы на кормушуке (Василий Вишневский)",
+        "Ведьмак. Сезон гроз (Анджей Сапковский)",
+      ],
+    },
+  },
+  {
+    month: "Aug, 24",
+    content: {
+      comics: [
+        "Эльф не может похудеть. Том 2",
+        "Эльф не может похудеть. Том 3",
+        "Эльф не может похудеть. Том 4",
+      ],
+      movies: [],
+      tv_shows: [],
+      games: [{ title: "Marvel's Spider-Man 2", perfect: true }],
+      books: [],
+      audiobooks: [
+        "Глен Кук. Черный отряд",
+        "Леонид Андреев. Кусака",
+        "Владимир Мономах. Получение",
+      ],
     },
   },
 ];
