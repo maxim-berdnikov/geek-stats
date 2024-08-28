@@ -116,7 +116,6 @@ export const DB: MonthProps[] = [
         "Greenland",
         "The Fast and the Furious ",
       ],
-
       comics: [
         "Бэтмен. Психушка Джокера. Пингвин",
         "Бэтмен. Леденящий ужас",
@@ -147,13 +146,7 @@ export const DB: MonthProps[] = [
         "Вампиры средней полосы (1st)",
         "Ивановы-Ивановы (5th)",
         "Happy End (1st)",
-        "",
-        "",
-        "",
-        "",
-        "",
       ],
-
       games: [
         { title: "Ghostrunner", perfect: false },
         { title: "We Were Here Too", perfect: false },
@@ -187,7 +180,6 @@ export const DB: MonthProps[] = [
         "Bad Boys 3",
         "Pirates Of The Caribbean: The Curse of the Black Pearl",
       ],
-
       comics: ["Новые Люди Икс. Том 5. Одним меньше"],
       games: [
         { title: "Nephise: Ascension", perfect: true },
@@ -237,7 +229,6 @@ export const DB: MonthProps[] = [
         "Проект Анна Николаевна (2nd)",
         "Трудные подростки (3rd)",
       ],
-
       games: [
         { title: "Batman: Arkham City", perfect: true },
         { title: "Human: Fall Flat", perfect: true },
@@ -259,7 +250,6 @@ export const DB: MonthProps[] = [
         "Ворошиловский стрелок",
       ],
       tv_shows: ["Патриот (2nd)"],
-
       games: [
         { title: "Aragami", perfect: false },
         { title: "Drizzlepath: Deja Vu", perfect: true },
@@ -283,7 +273,6 @@ export const DB: MonthProps[] = [
         "Форт Боярд S8",
         "Аркейн S1",
       ],
-
       games: [
         { title: "Assassin's Creed Unity", perfect: false },
         { title: "Mirror's Edge", perfect: false },
@@ -302,7 +291,6 @@ export const DB: MonthProps[] = [
         "Огонь",
       ],
       tv_shows: ["WandaVision S1", "Голяк S3"],
-
       games: [{ title: "Marvel Spider-Man. Miles Morales", perfect: false }],
     },
   },
@@ -310,7 +298,6 @@ export const DB: MonthProps[] = [
     month: "Mar, 22",
     content: {
       tv_shows: ["Why women kill S2"],
-
       games: [{ title: "Marvel Spider-Man", perfect: false }],
       books: ["Живи как кот"],
     },
@@ -349,7 +336,6 @@ export const DB: MonthProps[] = [
         "Dune. Part 1",
         "Doctor Strange in the Multiverse of Madness",
       ],
-
       games: [{ title: "", perfect: false }],
     },
   },
@@ -358,7 +344,6 @@ export const DB: MonthProps[] = [
     content: {
       movies: ["Sing", "Sing 2", "Jurassic World: Dominion"],
       tv_shows: ["Нулевой пациент. S1", "Loki. S1"],
-
       games: [{ title: "Guardians of the Galaxy", perfect: false }],
     },
   },
@@ -371,7 +356,6 @@ export const DB: MonthProps[] = [
         "Love, death and robots. S3",
         "The Falcon and The Winter Soldier. S1",
       ],
-
       games: [{ title: "InFamos: Secon Son (PS5)", perfect: false }],
     },
   },
@@ -408,7 +392,6 @@ export const DB: MonthProps[] = [
     content: {
       movies: ["Thor. Love and Thunder", "Непослушник"],
       tv_shows: ["The Expanse. S6"],
-
       games: [
         { title: "The Order 1886 (PS5)", perfect: false },
         { title: "Far Cry 3. Blood Dragon", perfect: false },
@@ -483,7 +466,6 @@ export const DB: MonthProps[] = [
     month: "May, 23",
     content: {
       tv_shows: ["Полярный (2 сезон)", "Ольга (4 сезон)"],
-
       games: [{ title: "We Were Here Together" }],
     },
   },
@@ -520,7 +502,6 @@ export const DB: MonthProps[] = [
     content: {
       movies: ["7 королей должны умереть"],
       tv_shows: ["Пишеблок 2 сезон"],
-
       games: [{ title: "God of War Ragnarök", perfect: true }],
     },
   },
@@ -595,7 +576,6 @@ export const DB: MonthProps[] = [
     month: "Feb, 24",
     content: {
       movies: ["Fast 10", "Black Adam", "Синий жук"],
-
       books: ["Ведьмак. Крещение огнём"],
       audiobooks: [
         "Любовь к жизни (Джек Лондон)",
@@ -644,7 +624,6 @@ export const DB: MonthProps[] = [
         "One-punch Man. Книга 13",
         "One-punch Man. Книга 14",
       ],
-
       books: [
         "Ведьмак. Владычица озера",
         "Ведьмак. Дорога без возврата",
@@ -673,7 +652,6 @@ export const DB: MonthProps[] = [
         "The King's Man",
         "Максим Перепелица",
       ],
-
       comics: ["Нуар. Палп"],
       games: [
         { title: "100 Aliens Cats", perfect: true },
@@ -695,8 +673,12 @@ export const DB: MonthProps[] = [
         "Летучий корабль",
       ],
       tv_shows: ["Великий Тихий океан (5 серий)"],
-
-      games: [{ title: "Ghost Of Tsushima", perfect: true }],
+      games: [
+        { title: "Ghost Of Tsushima", perfect: true },
+        { title: "Looking For Cats In a Badly Drawn City", perfect: true },
+        { title: "Cat Search In The Wild West" },
+        { title: "Dragon's Lair" },
+      ],
       books: [
         "Птицы на кормушуке (Василий Вишневский)",
         "Ведьмак. Сезон гроз (Анджей Сапковский)",
@@ -706,18 +688,37 @@ export const DB: MonthProps[] = [
   {
     month: "Aug, 24",
     content: {
+      movies: [
+        "Meg 2: The Trench",
+        "Бэтмен против Черепашек-ниндзя",
+        "Муми-тролль и другие",
+        "Муми-тролль и комета",
+        "Муми-тролль и комета: Путь домой",
+        "Мумми-дол: Всё дело в шляпе",
+        "Мумми-дол: Лето в Муми-доле",
+        "Мумми-дол: В Муми-дол приходит осень",
+        "Неведомая Россия",
+        "Гриб: Паутина жизни",
+        "Король леса",
+      ],
       comics: [
         "Эльф не может похудеть. Том 2",
         "Эльф не может похудеть. Том 3",
         "Эльф не может похудеть. Том 4",
+        "Эльф не может похудеть. Том 5",
+        "Еретик",
       ],
-
-      games: [{ title: "Marvel's Spider-Man 2", perfect: true }],
-
+      games: [
+        { title: "Marvel's Spider-Man 2", perfect: true },
+        { title: "Looking For Cats In a Badly Drawn Forest", perfect: true },
+      ],
       audiobooks: [
         "Глен Кук. Черный отряд",
         "Леонид Андреев. Кусака",
         "Владимир Мономах. Получение",
+        "Артур Конан Дойл. Маркотова бездна",
+        "Виктор Пелевин. Who by fire",
+        "Джордж Оруэл. Скотный двор",
       ],
     },
   },
