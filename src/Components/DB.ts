@@ -722,4 +722,11 @@ export const DB: MonthProps[] = [
       ],
     },
   },
+  {
+    month: "Sep, 24",
+    content: {
+      tv_shows: ["Арт и факт. 1 сезон"],
+      audiobooks: ["Эрест Сетон-Томпсон. Рассказы о животных"],
+    },
+  },
 ];
