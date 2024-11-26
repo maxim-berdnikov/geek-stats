@@ -727,7 +727,41 @@ export const DB: MonthProps[] = [
     content: {
       tv_shows: ["Арт и факт. 1 сезон"],
       audiobooks: ["Эрест Сетон-Томпсон. Рассказы о животных"],
-      books: ["Вячеслав Грацкий. Заговор Древних"],
+      books: [
+        "Вячеслав Грацкий. Заговор Древних",
+        "Red Dead Redemption. Хорошая, плохая, культовая. Рождение вестерна от Rockstar Games",
+      ],
+    },
+  },
+  {
+    month: "Oct, 24",
+    content: {
+      movies: ["A Knight Story", "Мартынко"],
+      tv_shows: ["His Dark Materials (3 сезон)"],
+      comics: ["Убийца гоблинов. Книга 1", "Старик Хоукай"],
+      books: ["Роман Попсуев. Битва за Лукоморье. Книга 1"],
+      audiobooks: ["Александр Куприн. Суламифь"],
+      games: [{ title: "Breadsticks" }, { title: "Oik Memory", perfect: true }],
+    },
+  },
+  {
+    month: "Nov, 24",
+    content: {
+      movies: ["Hot Fuzz"],
+      tv_shows: ["The 10th Kingdom (1 сезон)", "Варвары (2 сезон)"],
+      comics: [
+        "Хэллбой. Семя разрушения. 1 выпуск",
+        "Хэллбой и БРПД. Долгая ночь на станции Голоски",
+        "Хэллбой и БРПД. Зверь из Варгу",
+        "Удивительный волшебник из страны Оз",
+      ],
+      books: ["Застава на окраине Империи. Командория 54."],
+      games: [
+        { title: "100 Waiting Cats", perfect: true },
+        { title: "Gris" },
+        { title: "Hidden Corgi Mansion", perfect: true },
+        { title: "Cat Search In The Wild West", perfect: true },
+      ],
     },
   },
 ];
