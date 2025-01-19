@@ -53,3 +53,7 @@ code {
   text-decoration: underline;
   cursor: pointer;
 }
+
+.perfect { 
+  text-decoration: underline;
+}
