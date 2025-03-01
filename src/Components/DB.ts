@@ -794,4 +794,12 @@ export const DB: MonthProps[] = [
       games: [{ title: "Assemble with care", perfect: true }],
     },
   },
+  {
+    month: "Feb, 25",
+    content: {
+      comics: ["Убийца гоблинов. Книга 9", "Убийца гоблинов. Книга 10"],
+      audiobooks: ["12 подвигов Геракла"],
+      books: ["Слава Империи (Марцин А. Гузек)"],
+    },
+  },
 ];
