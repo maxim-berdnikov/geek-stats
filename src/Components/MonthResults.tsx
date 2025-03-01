@@ -1,6 +1,7 @@
 import React from "react";
 import { MonthProps } from "../Types";
 import { DB } from "./DB";
+import clsx from "classnames";
 
 type Category = keyof MonthProps["content"];
 
@@ -54,7 +55,12 @@ export const MonthResults = ({
                   typeof value === "string" ? (
                     <p key={value}>{value}</p>
                   ) : (
-                    <p key={value.title}>{value.title}</p>
+                    <p
+                      key={value.title}
+                      className={clsx(value.perfect && "perfect")}
+                    >
+                      {value.title}
+                    </p>
                   )
                 )}
               </div>
