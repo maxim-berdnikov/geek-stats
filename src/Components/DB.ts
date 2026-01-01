@@ -908,11 +908,45 @@ export const DB: MonthProps[] = [
         "Дилан Дог 7",
         "Убийца Гоблинов. Книга 11",
         "Убийца Гоблинов. Книга 12",
+        "Кольцо Нибелунга",
       ],
       games: [
         { title: "Deus Ex: Human Revolution" },
         { title: "100 Korean Cats", perfect: true },
         { title: "100 Romantic Cats", perfect: true },
+        { title: "Severed Steel" },
+      ],
+      books: ["Птицы Сахалина. Максим Мисюра"],
+    },
+  },
+  {
+    month: "Oct, 25",
+    content: {
+      audiobooks: ["Кавказский пленник. Л. Н. Толстой "],
+      games: [{ title: "Cats & Seek. Osaka", perfect: true }],
+    },
+  },
+  {
+    month: "Nov, 2025",
+    content: {
+      audiobooks: ["Артур Конан Дойл. Затерянный мир"],
+      books: ["Битва за Лукоморье. Книга 3"],
+      games: [
+        { title: "100 Cats Lost in Thailand Find & Color", perfect: true },
+        { title: "Witchfire", perfect: true },
+        { title: "100 Forest Cats", perfect: true },
+        { title: "Kingdom Classic", perfect: true },
+      ],
+    },
+  },
+  {
+    month: "Dec, 25",
+    content: {
+      audiobooks: ["Потомокъ. Кирилл Кощеев, Ирины Волынская"],
+      games: [
+        { title: "Meow Moments: Celebrating Together", perfect: true },
+        { title: "God of War", perfect: true },
+        { title: "Far Cry 3 Blood Dragon", perfect: true },
       ],
     },
   },
