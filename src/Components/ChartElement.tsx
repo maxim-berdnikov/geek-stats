@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -81,11 +81,20 @@ export const data = {
   datasets: showedData,
 };
 
-export function ChartElement() {
+export const ChartElement = () => {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
-    <div className="canvas-container">
-      {/* @ts-ignore */}
-      <Line options={options} data={data} />
-    </div>
+    <React.Fragment>
+      <button onClick={() => setIsOpen((status) => !status)}>
+        {isOpen ? "Скрыть" : "Показать"} граф
+      </button>
+      {isOpen && (
+        <div className="canvas-container">
+          {/* @ts-ignore */}
+          <Line options={options} data={data} />
+        </div>
+      )}
+    </React.Fragment>
   );
-}
+};

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Calendar } from "./Calendar";
 import { MonthResults } from "./MonthResults";
+import "./styles.css";
 
 export function MonthList() {
   const [showList, setShowList] = useState(false);
@@ -17,12 +18,9 @@ export function MonthList() {
   };
 
   return (
-    <div>
-      {showList ? (
-        <MonthResults selectedMonth={selectedMonth} handleBack={handleBack} />
-      ) : (
-        <Calendar handleMonthClick={handleMonthClick} />
-      )}
+    <div className="container">
+      <Calendar handleMonthClick={handleMonthClick} />
+      <MonthResults selectedMonth={selectedMonth} handleBack={handleBack} />
     </div>
   );
 }
