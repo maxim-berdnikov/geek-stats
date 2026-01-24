@@ -950,4 +950,19 @@ export const DB: MonthProps[] = [
       ],
     },
   },
+  {
+    month: "Jan, 25",
+    content: {
+      audiobooks: ["Гавриил Блаженный. Месть Аиды"],
+      books: [
+        "Плоский мир Терри Пратчетта. Имаджинариум",
+        "Сапковский и др. Век волков",
+      ],
+      comics: ["Илья Муромец. Библиотека приключений"],
+      games: [
+        { title: "Star Wars Jedi: Fallen Order", perfect: true },
+        { title: "Bright Memory" },
+      ],
+    },
+  },
 ];
