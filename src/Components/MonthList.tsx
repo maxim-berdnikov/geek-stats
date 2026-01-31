@@ -19,8 +19,10 @@ export function MonthList() {
 
   return (
     <div className="container">
-      <Calendar handleMonthClick={handleMonthClick} />
-      <MonthResults selectedMonth={selectedMonth} handleBack={handleBack} />
+      <Calendar handleMonthClick={handleMonthClick} isCollapsed={showList} />
+      {showList && (
+        <MonthResults selectedMonth={selectedMonth} handleBack={handleBack} />
+      )}
     </div>
   );
 }

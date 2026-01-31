@@ -14,11 +14,11 @@ export const Categories: Record<Category, string> = {
   audiobooks: "Аудиокниги",
 };
 
-export function isCategoriesKey(
-  value: string
-): value is keyof typeof Categories {
+export const isCategoriesKey = (
+  value: string,
+): value is keyof typeof Categories => {
   return Object.keys(Categories).includes(value);
-}
+};
 
 export const getTitle = (key: string) => {
   if (isCategoriesKey(key)) {
@@ -36,11 +36,11 @@ export const MonthResults = ({
   handleBack: () => void;
 }) => {
   const currentMonth: MonthProps = DB.filter(
-    (month) => month.month === selectedMonth
+    (month) => month.month === selectedMonth,
   )[0];
 
   return (
-    <div>
+    <div className="result">
       <div className="back-button" onClick={handleBack}>
         Назад
       </div>
@@ -61,10 +61,10 @@ export const MonthResults = ({
                     >
                       {value.title}
                     </p>
-                  )
+                  ),
                 )}
               </div>
-            ) : null
+            ) : null,
           )}
         </>
       ) : (

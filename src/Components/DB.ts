@@ -951,7 +951,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jan, 25",
+    month: "Jan, 26",
     content: {
       audiobooks: [
         "Гавриил Блаженный. Месть Аиды",

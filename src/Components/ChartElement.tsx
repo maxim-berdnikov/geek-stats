@@ -20,7 +20,7 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
 );
 
 const options = {
@@ -71,7 +71,7 @@ const showedData = Object.keys(colors).map((key) =>
         borderColor: colors[key].line,
         backgroundColor: colors[key].bg,
       }
-    : []
+    : [],
 );
 
 const labels = DB.map((month) => month.month);
@@ -82,7 +82,7 @@ export const data = {
 };
 
 export const ChartElement = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <React.Fragment>

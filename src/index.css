@@ -30,6 +30,11 @@ code {
   max-width: 700px;
 }
 
+.list__collapsed {
+  width: 150px;
+  gap: 0px;
+}
+
 .list_item {
   margin: 20px 0;
   width: 150px;
@@ -56,4 +61,10 @@ code {
 
 .perfect { 
   text-decoration: underline;
+}
+
+.result {
+  text-align: left;
+  width: 100%;
+  margin-left: 50px;
 }
