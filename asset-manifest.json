@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/geek-stats/static/css/main.9ca35013.css",
-    "main.js": "/geek-stats/static/js/main.4a0a09b9.js",
+    "main.css": "/geek-stats/static/css/main.bb1f1ee7.css",
+    "main.js": "/geek-stats/static/js/main.13a8af6f.js",
     "index.html": "/geek-stats/index.html",
-    "main.9ca35013.css.map": "/geek-stats/static/css/main.9ca35013.css.map",
-    "main.4a0a09b9.js.map": "/geek-stats/static/js/main.4a0a09b9.js.map"
+    "main.bb1f1ee7.css.map": "/geek-stats/static/css/main.bb1f1ee7.css.map",
+    "main.13a8af6f.js.map": "/geek-stats/static/js/main.13a8af6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ca35013.css",
-    "static/js/main.4a0a09b9.js"
+    "static/css/main.bb1f1ee7.css",
+    "static/js/main.13a8af6f.js"
   ]
 }
