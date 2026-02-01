@@ -967,6 +967,7 @@ export const DB: MonthProps[] = [
         { title: "Star Wars Jedi: Fallen Order", perfect: true },
         { title: "Bright Memory" },
       ],
+      tv_shows: ["Проект Анна Николаевна. 3 сезон"],
     },
   },
 ];
