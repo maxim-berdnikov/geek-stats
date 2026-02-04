@@ -2,7 +2,7 @@ import { MonthProps } from "../Types";
 
 export const DB: MonthProps[] = [
   {
-    month: "Jan, 21",
+    month: "Янв, 21",
     content: {
       movies: [
         "Wonder Woman 1984",
@@ -56,7 +56,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Feb, 21",
+    month: "Фев, 21",
     content: {
       movies: [
         "Аванпост",
@@ -83,7 +83,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Mar, 21",
+    month: "Мар, 21",
     content: {
       movies: [
         "Croods 2",
@@ -106,7 +106,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Apr, 21",
+    month: "Апр, 21",
     content: {
       movies: [
         "Pacific Rim",
@@ -129,7 +129,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "May, 21",
+    month: "Май, 21",
     content: {
       movies: [
         "Mummy",
@@ -154,7 +154,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jun, 21",
+    month: "Июн, 21",
     content: {
       movies: [
         "The Lord of the Rings: The Fellowship of the Ring",
@@ -166,14 +166,14 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jul, 21",
+    month: "Июль, 21",
     content: {
       movies: ["Bad Boys"],
       tv_shows: ["Пищеблок (1st)", "Sweet Tooth (1st)"],
     },
   },
   {
-    month: "Aug, 21",
+    month: "Авг, 21",
     content: {
       movies: [
         "Bad Boys 2",
@@ -189,7 +189,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Sep, 21",
+    month: "Сен, 21",
     content: {
       movies: [
         "The Witcher: Nightmare of the Wolf ",
@@ -209,7 +209,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Oct, 21",
+    month: "Окт, 21",
     content: {
       movies: ["Веном 2"],
       tv_shows: ["The North Water"],
@@ -222,7 +222,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Nov, 21",
+    month: "Нов, 21",
     content: {
       tv_shows: [
         "Squid Game (1st)",
@@ -241,7 +241,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Dec, 21",
+    month: "Дек, 21",
     content: {
       movies: [
         "Человек-паук: Нет пути домой",
@@ -257,7 +257,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "January, 22",
+    month: "Янв, 22",
     content: {
       movies: [
         "Последний богатырь. Корень зла",
@@ -282,7 +282,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Feb, 22",
+    month: "Фев, 22",
     content: {
       movies: [
         "Raya and the Last Dragon",
@@ -295,7 +295,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Mar, 22",
+    month: "Мар, 22",
     content: {
       tv_shows: ["Why women kill S2"],
       games: [{ title: "Marvel Spider-Man", perfect: false }],
@@ -303,7 +303,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Apr, 22",
+    month: "Апр, 22",
     content: {
       movies: [
         "Большой ух",
@@ -317,7 +317,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "May, 22",
+    month: "Май, 22",
     content: {
       movies: ["Зачинщики", "Маленькие чудовища", "Jungle Cruise", "Free Guy"],
       tv_shows: ["Game of Thrones. S1"],
@@ -326,7 +326,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jun, 22",
+    month: "Июн, 22",
     content: {
       movies: [
         "Mortal Kombat (2021)",
@@ -340,7 +340,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jul, 22",
+    month: "Июль, 22",
     content: {
       movies: ["Sing", "Sing 2", "Jurassic World: Dominion"],
       tv_shows: ["Нулевой пациент. S1", "Loki. S1"],
@@ -348,7 +348,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Aug, 22",
+    month: "Авг, 22",
     content: {
       movies: ["Prey", "Black Widow", "Boss Level"],
       tv_shows: [
@@ -360,7 +360,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Sep, 22",
+    month: "Сен, 22",
     content: {
       movies: ["The Batman 2022", "Arrival", "Ready or Not"],
       tv_shows: [
@@ -375,20 +375,20 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Oct, 22",
+    month: "Окт, 22",
     content: {
       movies: ["Rapa Nui"],
       tv_shows: ["The Boys. S3", "I am Groot. S1"],
     },
   },
   {
-    month: "Nov, 22",
+    month: "Нов, 22",
     content: {
       tv_shows: ["Primal. S2", "Star Wars: Visions. S1"],
     },
   },
   {
-    month: "Dec, 22",
+    month: "Дек, 22",
     content: {
       movies: ["Thor. Love and Thunder", "Непослушник"],
       tv_shows: ["The Expanse. S6"],
@@ -402,7 +402,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jan, 23",
+    month: "Янв, 23",
     content: {
       movies: [
         "Harry Potter and the Philosopher's Stone",
@@ -416,7 +416,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Feb, 23",
+    month: "Фев, 23",
     content: {
       movies: [
         "Шоугерлз",
@@ -428,7 +428,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Mar, 23",
+    month: "Мар, 23",
     content: {
       movies: [
         "Трям! Здравствуйте",
@@ -456,21 +456,21 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Apr, 23",
+    month: "Апр, 23",
     content: {
       tv_shows: ["House of the Dragon (1 сезон)"],
       comics: ["Чёрный Молот. Эра Рока II"],
     },
   },
   {
-    month: "May, 23",
+    month: "Май, 23",
     content: {
       tv_shows: ["Полярный (2 сезон)", "Ольга (4 сезон)"],
       games: [{ title: "We Were Here Together" }],
     },
   },
   {
-    month: "Jun, 23",
+    month: "Июн, 23",
     content: {
       movies: [
         "Dungeon and Dragons: Honor among thieves",
@@ -480,7 +480,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jul, 23",
+    month: "Июль, 23",
     content: {
       movies: ["Бахубали. Начало", "Бахубали. Завершение"],
       tv_shows: [
@@ -492,13 +492,13 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Aug, 23",
+    month: "Авг, 23",
     content: {
       tv_shows: ["Последнее королевство 5 сезон"],
     },
   },
   {
-    month: "Sep, 23",
+    month: "Сен, 23",
     content: {
       movies: ["7 королей должны умереть"],
       tv_shows: ["Пишеблок 2 сезон"],
@@ -506,14 +506,14 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Oct, 23",
+    month: "Окт, 23",
     content: {
       movies: ["Madagascar"],
       tv_shows: ["Разрешите обратиться (1 сезон)"],
     },
   },
   {
-    month: "Nov, 23",
+    month: "Нов, 23",
     content: {
       movies: [
         "John Wick 4",
@@ -537,7 +537,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Dec, 23",
+    month: "Дек, 23",
     content: {
       movies: [
         "The Best Exotic Hotel Merigold",
@@ -554,7 +554,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jan, 24",
+    month: "Янв, 24",
     content: {
       movies: [
         "Холоп 2",
@@ -573,7 +573,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Feb, 24",
+    month: "Фев, 24",
     content: {
       movies: ["Fast 10", "Black Adam", "Синий жук"],
       books: ["Ведьмак. Крещение огнём"],
@@ -595,7 +595,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Mar, 24",
+    month: "Мар, 24",
     content: {
       comics: ["Веном. Духи возмездия"],
       games: [
@@ -614,7 +614,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Apr, 24",
+    month: "Апр, 24",
     content: {
       tv_shows: ["Монарх. Наследник монстров (1 сезон)"],
       comics: [
@@ -635,7 +635,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "May, 24",
+    month: "Май, 24",
     content: {
       comics: ["Клинок бессмертного. Книга 1"],
       games: [{ title: "100 Christmas Cats", perfect: true }],
@@ -643,7 +643,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jun, 24",
+    month: "Июн, 24",
     content: {
       movies: [
         "Godzilla x Kong: The New Empire",
@@ -661,7 +661,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jul, 24",
+    month: "Июль, 24",
     content: {
       movies: [
         "Dawn Of The Planet Of The Apes",
@@ -686,7 +686,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Aug, 24",
+    month: "Авг, 24",
     content: {
       movies: [
         "Meg 2: The Trench",
@@ -723,7 +723,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Sep, 24",
+    month: "Сен, 24",
     content: {
       tv_shows: ["Арт и факт. 1 сезон"],
       audiobooks: ["Эрест Сетон-Томпсон. Рассказы о животных"],
@@ -734,7 +734,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Oct, 24",
+    month: "Окт, 24",
     content: {
       movies: ["A Knight Story", "Мартынко"],
       tv_shows: ["His Dark Materials (3 сезон)"],
@@ -745,7 +745,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Nov, 24",
+    month: "Нов, 24",
     content: {
       movies: ["Hot Fuzz"],
       tv_shows: ["The 10th Kingdom (1 сезон)", "Варвары (2 сезон)"],
@@ -765,7 +765,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Dec, 24",
+    month: "Дек, 24",
     content: {
       movies: ["Тайна Третьей планеты", "  Путешествие муравья"],
       tv_shows: ["Красный состав. Антология русского хоррора"],
@@ -774,7 +774,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jan, 25",
+    month: "Янв, 25",
     content: {
       comics: [
         "Убийца гоблинов. Книга 2",
@@ -795,7 +795,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Feb, 25",
+    month: "Фев, 25",
     content: {
       comics: ["Убийца гоблинов. Книга 9", "Убийца гоблинов. Книга 10"],
       audiobooks: ["12 подвигов Геракла"],
@@ -803,7 +803,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Mar, 25",
+    month: "Мар, 25",
     content: {
       comics: [
         "Конан. Змеиная война",
@@ -816,7 +816,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Apr, 25",
+    month: "Апр, 25",
     content: {
       comics: [
         "Долина червя",
@@ -834,7 +834,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "May, 25",
+    month: "Май, 25",
     content: {
       comics: ["Кафе Бессонница", "Кром"],
       audiobooks: [
@@ -849,7 +849,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jun, 25",
+    month: "Июн, 25",
     content: {
       comics: [
         "Приключения мистера Фрога и мисс Мышки",
@@ -867,7 +867,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jul, 25",
+    month: "Июл, 25",
     content: {
       comics: [
         "Гидеон Фолз. Книга 1",
@@ -882,7 +882,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Aug, 25",
+    month: "Авг, 25",
     content: {
       comics: [
         "Диптих",
@@ -896,7 +896,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Sep, 25",
+    month: "Сен, 25",
     content: {
       comics: [
         "Жизнь и смерть Конана-Варвара",
@@ -920,14 +920,14 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Oct, 25",
+    month: "Окт, 25",
     content: {
       audiobooks: ["Кавказский пленник. Л. Н. Толстой "],
       games: [{ title: "Cats & Seek. Osaka", perfect: true }],
     },
   },
   {
-    month: "Nov, 2025",
+    month: "Нов, 25",
     content: {
       audiobooks: ["Артур Конан Дойл. Затерянный мир"],
       books: ["Битва за Лукоморье. Книга 3"],
@@ -940,7 +940,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Dec, 25",
+    month: "Дек, 25",
     content: {
       audiobooks: ["Потомокъ. Кирилл Кощеев, Ирины Волынская"],
       games: [
@@ -951,7 +951,7 @@ export const DB: MonthProps[] = [
     },
   },
   {
-    month: "Jan, 26",
+    month: "Янв, 26",
     content: {
       audiobooks: [
         "Гавриил Блаженный. Месть Аиды",
@@ -967,7 +967,13 @@ export const DB: MonthProps[] = [
         { title: "Star Wars Jedi: Fallen Order", perfect: true },
         { title: "Bright Memory" },
       ],
-      tv_shows: ["Проект Анна Николаевна. 3 сезон"],
+      tv_shows: ["Проект Анна Николаевна. 3 сезон", "Звезды. 2 сезон"],
+    },
+  },
+  {
+    month: "Фев, 26",
+    content: {
+      audiobooks: ["Лайон Спрэг де Камп. Часы Ираза"],
     },
   },
 ];
