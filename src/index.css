@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0;
-}
+} */
 
 .app {
   font-family: sans-serif;
@@ -31,12 +31,12 @@ code {
 }
 
 .list__collapsed {
-  width: 150px;
-  gap: 0px;
+  width: 230px;
+  overflow-y: auto;
+  height: calc(42px * 12 + 20px * 11);
 }
 
 .list_item {
-  margin: 20px 0;
   width: 150px;
   height: 40px;
   border: 1px solid #f5b7b1;
@@ -66,5 +66,5 @@ code {
 .result {
   text-align: left;
   width: 100%;
-  margin-left: 50px;
+  margin-left: 20px;
 }
