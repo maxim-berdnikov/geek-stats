@@ -47,25 +47,28 @@ export const MonthResults = ({
       {currentMonth !== undefined ? (
         <>
           <h2>{currentMonth.month}</h2>
-          {Object.entries(currentMonth.content).map(([key, values]) =>
-            values.length ? (
-              <div>
-                <h3>{getTitle(key)}</h3>
-                {values.map((value) =>
-                  typeof value === "string" ? (
-                    <p key={value}>{value}</p>
-                  ) : (
-                    <p
-                      key={value.title}
-                      className={clsx(value.perfect && "perfect")}
-                    >
-                      {value.title}
-                    </p>
-                  ),
-                )}
-              </div>
-            ) : null,
-          )}
+          {Object.keys(currentMonth.content)
+            .sort()
+            .map((key) => {
+              const values = currentMonth.content[key as Category];
+              return values?.length ? (
+                <div>
+                  <h3>{getTitle(key)}</h3>
+                  {values.map((value) =>
+                    typeof value === "string" ? (
+                      <p key={value}>{value}</p>
+                    ) : (
+                      <p
+                        key={value.title}
+                        className={clsx(value.perfect && "perfect")}
+                      >
+                        {value.title}
+                      </p>
+                    ),
+                  )}
+                </div>
+              ) : null;
+            })}
         </>
       ) : (
         void 0
